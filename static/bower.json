@@ -1,0 +1,30 @@
+{
+  "name": "city",
+  "version": "0.0.0",
+  "authors": [
+    "Jordan Byrd <jabyrd3@gmail.com>"
+  ],
+  "description": "small test app for city maps",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "test",
+    "small",
+    "mapping"
+  ],
+  "license": "MIT",
+  "homepage": "http://jordanbyrd.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2"
+  }
+}
