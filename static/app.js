@@ -131,7 +131,8 @@
                             var marker = new google.maps.Marker({
                                 position: latLng,
                                 title: item.name,
-                                map: map
+                                map: map,
+                                animation: google.maps.Animation.DROP
                             });
                             markers.push(marker);
                         }
