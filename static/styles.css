@@ -1,3 +1,20 @@
 #map-canvas{
 	height: 600px;
+	-webkit-transition:width .5s, -webkit-transform .5s;
+    transition:width .5s, transform .5s;
+    -webkit-transition-timing-function: ease-in; /* Safari and Chrome */
+    transition-timing-function: ease-in;
+    float: right;
 }
+#result-list{
+	-webkit-transition:width .5s;
+    transition:width .5, transform .5s, opacity: .5s;
+    -webkit-transition-timing-function: ease-in; /* Safari and Chrome */
+    transition-timing-function: ease-in;
+}
+.row{
+	margin-top: 20px;
+}
+.row:first-of-type{
+	margin-top: 20px;
+};

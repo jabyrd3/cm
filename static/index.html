@@ -9,23 +9,25 @@
 		<title>city</title>
 		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="styles.css">
-		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script src="bower_components/requirejs/require.js" data-main="./scripts/main.js"></script>
 	</head>
 	<body ng-app="city">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<form id="the-form">
-						<label for="search">Search for POI near you!</label>
-						<input type="text" class="form-control" name="search"/>
-						<button id="the-button" class="btn btn-default center-block">the humble button</button>
-						<script type="text/javascript" src="app.js"></script>
+						<label for="search">search for poi near you!</label>
+						<div class="input-group">
+							<input type="text" class="form-control" name="search"/>
+							<span id="the-button" class="input-group-addon">search nearby</span>
+						</div>
 					</form>
 				</div>
 			</div>
-			<div class="row">
-				<div id="map-canvas">
-
+			<div class="row" class="results">
+				<div class="" id="result-list">
+				</div>
+				<div class="col-xs-12" id="map-canvas">
 				</div>
 			</div>
 		</div>
