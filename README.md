@@ -1,5 +1,6 @@
 # cm
 small app, no frameworks
+
 todo:
 * recent searches save to localstorage
 * preposition lensing (rank is sent, needs to be appended to search strings and sent to google maps api for centering/zoom)
